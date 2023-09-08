@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <title>Job 04</title>
+    <style>
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="POST" id="form-add-student">
+      <label for="Email">Email</label>
+      <input
+        type="text"
+        id="student-mail"
+        placeholder="Enter your Mail"
+        name="student-mail"
+      />
+      <label for="FullName">FullName</label>
+      <input
+        type="text"
+        id="student-fullname"
+        placeholder="Enter your FullName"
+        name="student-fullname"
+      />
+      <label for="Gender">Gender</label>
+      <select name="student-gender" id="student-gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <label for="student-grade">Student Grade</label>
+      <select name="student-grade" id="student-grande">
+        <option value="Bachelor 1 ">Bachelor 1</option>
+        <option value="Bachelor 2 Web ">Bachelor 2 Web</option>
+        <option value="Bachelor 2 Logiciel ">Bachelor 2 Logiciel</option>
+        <option value="Bachelor 2 Cyber ">Bachelor 2 Cyber</option>
+        <option value="Bachelor 2 IA ">Bachelor 2 IA</option>
+        <option value="Bachelor 3 Web ">Bachelor 3 Web</option>
+        <option value="Bachelor 3 Logiciel ">Bachelor 3 Logiciel</option>
+        <option value="Bachelor 3 Cyber ">Bachelor 3 Cyber</option>
+        <option value="Bachelor 3 IA ">Bachelor 3 IA</option>
+        <option value="Mastère 1 IT Business IT ">
+          Mastère 1 IT Business IT
+        </option>
+        <option value="Mastère 2 IT Business IT ">
+          Mastère 2 IT Business IT
+        </option>
+        <option value="Mastère DPO">Mastère DPO</option>
+      </select>
+      <label for="student-birthdate">Birthdate</label>
+      <input type="date" id="student-birthdate" name="student-birthdate">
+      <input type="submit" name="submit-btn" id="submit-btn">
+    </form>
+  </body>
+</html>
