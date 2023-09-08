@@ -1,7 +1,7 @@
 // Class Player 
 
 
-class Player 
+export default class Player 
 {
     constructor(symbol, IsCurrentPlayer){
         this.symbol = symbol;
@@ -9,7 +9,7 @@ class Player
     }
 }
 
-let player = new Player();
-player.symbol = "x";
-player.IsCurrentPlayer = true;
-console.log(player);
+// let player = new Player();
+// player.symbol = "x";
+// player.IsCurrentPlayer = true;
+// console.log(player);
